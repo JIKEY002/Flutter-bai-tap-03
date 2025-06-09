@@ -128,7 +128,6 @@ suaSanPham() async {
     message_2: "Số lượng không hợp lệ",
   );
 
-  stdout.write('Nhập giá tiền mới: ');
   sp['gia'] = await inputDouble(
     message_1: "Nhập giá tiền mới: ",
     message_2: "Giá tiền không hợp lệ",
